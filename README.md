@@ -1,2 +1,2 @@
-# Java-practice
+# Java-Practice
 Java练习
