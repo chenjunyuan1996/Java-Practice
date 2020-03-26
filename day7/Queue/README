@@ -1,0 +1,9 @@
+用Java实现了队列，队列是一种先进先出的数据结构，可用于广度优先搜索。不过不需要重复造轮子，记住队列的使用函数就可以。具体如下：
+
+import java.util.*;
+
+Queue<Integer> q = new LinkedList(); // 生成队列
+q.peek(); // 获取队列首项
+q.offer(num); // 将num加入队列
+q.pop(); // 将队列的首项弹出，先进先出
+q.size(); // 获得队列的长度
