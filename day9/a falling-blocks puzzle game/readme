@@ -1,0 +1,26 @@
+Java编程笔记（educative）
+
+1、方法注释说明
+2、方法定义之间要空行
+3、命名方法：不同单词之间用大写字母隔开，如meanOfLife；Python的话习惯用下划线隔开，如mean_of_life
+4、同一个类中方法名可相同，只要输入变量的类型不同即可（即方法标签不同）
+5、System.exit() 可以提前退出程序； System.exit(0) 可以通过返回0告诉操作系统成功退出
+6、String.toUpperCase() 只是返回一个大写的结果，不覆盖原来的内容（String类型不可变）；String.charAt(a) 提取字符串String中的第a个字符
+*7、静态方法不需要访问特定字符串对象的数据。非静态方法需要一个字符串作为输入，并且不将该字符串作为参数传递
+8、双引号为字符串类型，单引号为字符类型
+9、字符在内部使用名为Unicode的代码表示
+输出单个字符会输出字符对应的字符串，输出字符相加会输出字符对应的数字加和的字符串
+字符 + 字符 = (int) 数字
+字符串 + 字符 = (String) 字符串
+11、String类型不可变，可用StringBuffer/StringBuilder生成，包括.append(), .insert(), .setLength(), .setChatAt(), .reverse()等方法，然后使用.toString()转换成字符串类型. (直接输出时默认添加)
+12、Java的array不可变长
+String.length()调用方法来输出字符串长度；Array.length调用实例变量输出数组长度
+13、一个class一个.java文件
+14、类的数据元素->实例变量，类包含数据结构和方法；类中方法的变量属于局部变量，出了方法即销毁
+15、类描述对象的实例变量，new + 类的函数构造器，并返回引用
+16、访问类中构造器的实例变量，记得用this. 关键字
+17、非静态方法可以访问类中的this参量（参考Python的self.），您可以将Java静态方法看作是Python或Javascript中的普通函数。Java非静态方法类似于Python或Javascript中的方法
+18、Java项目 -> 功能分析 -> 类的设定 -> 类中的方法
+
+https://www.educative.io/courses/the-complete-java-crash-course/JYEwwE0QAY2
+
