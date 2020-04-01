@@ -47,3 +47,15 @@ c.合并所有子序列。
 步骤3：递归地（recursive）把小于基准值元素的子数列和大于基准值元素的子数列排序。
 稳定性：不稳定排序，内排序
 时间复杂度：O(nlogn)
+
+07_堆排序（Heap Sort）
+堆排序是利用堆这个数据结构设计的排序算法。
+a.建堆，从底向上调整堆，使得父亲节点比孩子节点值大，构成大顶堆；
+b.交换堆顶和最后一个元素，重新调整堆。
+c.调整堆方法写了递归和迭代，都很好理解！
+稳定性：不稳定排序，内排序
+时间复杂度：O(nlogn)
+
+作者：powcai
+链接：https://leetcode-cn.com/problems/sort-an-array/solution/python-shi-xian-de-shi-da-jing-dian-pai-xu-suan-fa/
+来源：力扣（LeetCode）
