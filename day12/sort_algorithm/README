@@ -56,6 +56,14 @@ c.调整堆方法写了递归和迭代，都很好理解！
 稳定性：不稳定排序，内排序
 时间复杂度：O(nlogn)
 
+08_计数排序（Counting Sort）
+计数排序是典型的空间换时间算法，开辟额外数据空间存储用索引号记录数组的值和数组值个数
+a.找出待排序的数组的最大值和最小值
+b.统计数组值的个数
+c.反向填充目标数组
+稳定性：稳定排序，外排序
+时间复杂度：O(n + k)，但是对于数据范围很大的数组，需要大量时间和内存。
+
 作者：powcai
 链接：https://leetcode-cn.com/problems/sort-an-array/solution/python-shi-xian-de-shi-da-jing-dian-pai-xu-suan-fa/
 来源：力扣（LeetCode）
