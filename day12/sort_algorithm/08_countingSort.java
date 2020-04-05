@@ -27,3 +27,31 @@ class Solution {
         return nums;
     }
 }
+
+/*
+class Solution {
+    public int[] sortArray(int[] nums) {
+        if (nums.length > 1) {
+            int max = nums[0], min = nums[0];
+            for (int n: nums) {
+                if (max < n) max = n;
+                if (min > n) min = n;
+            }
+            int[] count = new int[max - min + 1];
+            for (int n: nums) {
+                count[n - min]++;
+            }
+            for (int i = 1; i < count.length; i++) {
+                count[i] += count[i - 1];
+            }
+
+            int[] res = new int[nums.length];
+            for (int i = nums.length - 1; i > -1; i--) {
+                res[--count[nums[i] - min]] = nums[i];
+            }
+            nums = res;
+        }
+        return nums;
+    }
+}
+*/
