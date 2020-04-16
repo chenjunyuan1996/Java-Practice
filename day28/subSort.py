@@ -12,14 +12,14 @@ class Solution:
         rmax = array[0]
         lmin = array[-1]
         for i in range(1, len(array)):
-            if array[i] > rmax:
+            if array[i] >= rmax:
                 rmax = array[i]
-            elif array[i] < rmax:
+            else:
                 r = i
         for i in range(len(array) -2, -1, -1):
-            if array[i] < lmin:
+            if array[i] <= lmin:
                 lmin = array[i]
-            elif array[i] > lmin:
+            else:
                 l = i
         return [l, r]
 
