@@ -25,14 +25,14 @@ class Solution:
 
 # class Solution:
 #     def subSort(self, array: List[int]) -> List[int]:
-        # tmp = sorted(array)
-        # m = 0
-        # n = len(array) - 1
-        # while m <= n and tmp[m] == array[m]:
-        #     m += 1
-        # if m >= n:
-        #     return [-1, -1]
-        # else:
-        #     while tmp[n] == array[n]:
-        #         n -= 1
-        #     return [m, n]
+#         tmp = sorted(array)
+#         m = 0
+#         n = len(array) - 1
+#         while m <= n and tmp[m] == array[m]:
+#             m += 1
+#         if m > n:
+#             return [-1, -1]
+#         else:
+#             while tmp[n] == array[n]:
+#                 n -= 1
+#             return [m, n]
