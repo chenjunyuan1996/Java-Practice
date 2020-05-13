@@ -1,2 +1,2 @@
-# Java-Practice
-Java练习
+# Algorithm-Practice
+by Java/Python
