@@ -43,9 +43,8 @@ class Solution {
             this.na.add(row - col);
             board[row] = col;
 
-            DFS(n, ++row);
+            DFS(n, row + 1);
 
-            row--;
             this.cols.remove(col);
             this.pie.remove(row + col);
             this.na.remove(row - col);
